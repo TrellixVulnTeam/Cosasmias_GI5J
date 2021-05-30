@@ -1,0 +1,33 @@
+body{
+    background-color: #eee;
+}
+p{
+    color: blue;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+/*text-decoration: none
+                     overline
+                     line-through
+                     underline
+    text-transform: uppercase
+                    lowercase
+                    capitalize
+    text-indent: 0px
+    letter-spacing: 0px
+    line-height: 0.0
+    word-spacing: 0px
+    text-shadow: 0px (desplazamiento derecha) 0px(desplazamiento abajo) 0px(cuan difuminado) red;
+    Sistema rgba (0, 0, 0, 0,) el cuarto la intensidad/transparencia
+    font-family: "Monaco"
+                 "Times New Roman"
+    font-style: normal
+                italic
+                oobliqua
+    font-size: 0px/0em
+    font-weight: normal
+                 bold
+                 100/200/300/400/500/600/700/800/900
+*/

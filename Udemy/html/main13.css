@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+    grid-gap: 5px;
+    justify-content: start;
+    align-content: start;
+}
+
+.red {
+    background-color: red;
+}
+
+/*
+display grid activa el modo grid
+grid-template colums: apx apx apx; hay tantas como se definan
+grid template rows: " " ";/minmax(minimopx,maximopx)/auto
+fr fracciones de la pantalla
+repeat(cuantas veces, este valorpx)
+grid-row-gap: 20px; espacio entre filas
+grid-column-gap
+grid-gap: filas columnas/lomismoparaambaspx
+
+para elementos concretos solo
+.header {
+    grid-column-start: el numero de la linea donde queremos que empiece
+    grid-column-end:""; lo mismo con row
+    grid-column: empieza/termina;
+    grid-template-rows: [deifne el nombre] medidapx
+    repeat( cuantas veces, [el nombre] medidapx [elquelasigue])
+} 
+
+    grid-template-areas: "header header"        como quieres definir las areas de los div segun
+                         "content sidebar"      lo que tengan escrito
+                         "footer footer";
+    grid-auto-rows: 140px;                      la aultura auto de las rows implicitas
+    grid-auto-flow: row;                        la orientacion del grill
+justify-items:  center
+                start
+                end
+                stretch estirar para usar todo el alto y el ancho
+align-items: lo mismo pero con la altura
+justify-self
+align-self

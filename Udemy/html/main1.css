@@ -1,0 +1,20 @@
+body {
+    background-color: #efefef;
+}
+
+.caja{
+    margin:8px;
+    padding: 8px;
+    background-color: #aaf;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #faa;
+    border-left: 6px solid #afa;
+    border-top: ;
+    border-bottom: ;
+    border-right: ;
+    border-radius: 8px;
+    height: 100px;
+    width: 100px;
+    color: #575;
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: #e4e4e4;
+}
+
+.box {
+    margin: 10px 15px;
+    background-color: white;
+    border-left: 2px solid;
+    text-align: center;
+    text-decoration: solid;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 25px;
+    transition: 0.2s;
+    padding: 10px 15px;
+    width: 400px;
+}
+
+#box1 {
+    border-color: rgba(175,0,0,1);
+}
+
+#box1:hover {
+    transform: scale(1.05,1.05);
+}
+
+#box2 {
+    border-color: rgba(0,125,0,1);
+}
+
+#box2:hover {
+    box-shadow: 5px 8px 12px #ccc;
+}
+
+#box3 {
+    border-color: rgba(0,0,175,1);
+}
+
+#box3:hover {
+    background-color:  rgba(50,50,175,0.1);
+}
+
+
+<!--
+transform: rotate(adeg)
+           translate(cuanto quiero que se mueva en x, "" en y)
+           scale(cambio en x apx, "" en y apx)  cuanto queremos que crezca  en proporción
+           scaleY(apx)
+           scaleX(apx)   
+           skew(torcer en x adeg, torcer en y adeg)
+           skewY
+           skewX
+           rotateX(deg)
+           rotateY
+           rotateZ
+           transition: primero la propiedad, tiempo que dura tra<nsicion,despues tiempo delay
+           ej transition: width 0.3s 1s; ninguna es por defecto todas
+           transition-delay: as
+-->
+

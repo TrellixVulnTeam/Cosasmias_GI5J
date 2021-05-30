@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.primero {
+    flex: 1 120px;
+}
+
+.segundo {
+    flex-grow: 1;
+}
+.tercero {
+    flex-grow: 2;
+    align-self: stretch;
+}
+.sexto {
+     
+}
+
+
+
+/* display-direction: row
+                      column
+                      column-reverse
+    flex-wrap: nowrap
+                wrap
+                wrap-reverse
+    flex-flow: direccion  wrap
+    justify-content: flex-start
+    align-items: flex-start
+    align-content:
+    order: -1 primero
+           1 ultimo
+    flex-grow: como crecen en priporciuon cada div
+    flex-basis: espacio desde que empieza a proporcionar
+    flex: grow basispx;
