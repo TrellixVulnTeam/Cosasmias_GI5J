@@ -178,5 +178,125 @@ public class EjercicioCiclos {
         System.out.println(suma);
         */        
         
+        // Ejercicio 11
+        
+        /*int numerot = 1, numeroi = 1;
+        
+        for(int i = 0; i < 10; ++i){
+           numerot *= numeroi;
+           numeroi += 2;
+           
+        }
+        System.out.println(numerot);*/
+        
+        
+        // Ejercicio 12
+        
+        /*int numero;
+        long total = 1;
+        
+        System.out.println("Escriba un número");
+        numero = tcl.nextInt();
+        
+        for(int i = numero; i > 0; --i){
+           total *= numero;
+           --numero;
+                   
+        }
+        System.out.println(total);*/
+        
+        
+        // Ejercicio 13
+        
+        /*int numero, O = 0, mas = 0,imas = 0, imenos = 0,  menos = 0;
+        
+        for(int i = 0; i < 10; ++i){
+            
+        System.out.println("Escriba un número");
+        numero = tcl.nextInt();
+        
+        if(numero == 0){
+            O++;
+        }
+        else if(numero > 0){
+            mas += numero;
+            imas++;
+        }
+        else {
+            menos += numero;
+            imenos++;
+        }
+                
+        }
+        if(imas != 0){
+        System.out.println("La media de (+) es: " + mas/imas);
+        } else if(imenos != 0){
+        System.out.println("La media de (-) es: " + menos/imenos);
+        }
+        System.out.println("La cantidad de 0s es: " + O); 
+        */
+        
+        // Ejercicio 14
+        
+        /*int suma = 0, sueldo, sp = 0;
+        
+        
+        
+        for(int i = 0; i < 10; ++i){
+            
+            System.out.println("Dame un sueldo: ");
+            
+            sueldo = tcl.nextInt();
+            suma += sueldo;
+            
+            if(sueldo > 1000){
+                ++sp;
+            }
+        }
+        System.out.println(suma);
+        System.out.println("Hay " + sp + " sueldo/s de más de 1000$");*/
+        
+        // Ejercio 15
+        
+        /*double edad = 0, altura = 0, mediaedad = 0, mediaaltura = 0;
+        
+        for(int i = 0; i < 5; ++i){
+            
+            System.out.println("Dame una edad: ");
+            edad = tcl.nextDouble();
+            System.out.println("Dame y su altura: ");
+            altura = tcl.nextDouble();
+            
+            if(edad > 18){
+                ++mediaedad;
+            }
+            
+            if(altura > 1.75){
+                ++mediaaltura;
+            }
+            
+            
+            
+        }
+        System.out.println("Esta es la media de edad: " + edad/5);
+        System.out.println("Esta es la media de altura: " + altura/5);
+        System.out.println("Mayores de 18: " + mediaedad);
+        System.out.println("Mayores de 1.75: " + mediaaltura);*/
+        
+        // Ejercicio 16
+        
+        /*int numero, i;
+        
+        System.out.println("Escribe un número: ");
+        numero = tcl.nextInt();
+        
+        System.out.println("La tabla de multiplicar de " + numero + " es :");
+        if(numero <= 10 && numero >= 0){ 
+            for(i = 1; i <= 10; ++i){
+                System.out.println(numero + " * " + i + " = " + numero*i);
+            }
+        }*/
+        
     }
+    
 }
