@@ -1,0 +1,50 @@
+html {
+    background-color: white;
+    
+}
+body {
+    display: grid;
+    justify-content: center;
+    margin: 0%;
+}
+div {
+    display: grid;
+}
+#imgportada {
+    width: 35%;
+    height: auto;
+    justify-self: right;
+    
+}
+#imgsec {
+    width: 25%;
+    height: auto;
+    margin-top: 9.8%;
+}
+
+h1 {
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 15%;
+}
+
+#imagenes {
+    grid-template-columns: 1fr 1fr;
+}
+
+#contenido {
+    border: 2px solid black;
+    width: 60%;
+    justify-self: center;
+    font-size: 130%;
+}
+
+#herdazians {
+    float: left;
+}
+
+
+
+  

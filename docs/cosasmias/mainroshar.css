@@ -1,0 +1,102 @@
+html {
+    background-color: white;
+    height: 100%;
+}
+
+
+#title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    width: 99.6%;
+    height: 10%;
+    border: 2px solid black;
+    font-size: 300%;
+    background-color: #00f;
+    color: yellow; 
+}
+
+body {
+    height: 99%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    display: grid;
+    margin: 0%;
+    margin-top: 3%;
+    padding: 0%;
+}
+
+
+#map {
+    display: grid;
+    justify-content: center;
+    height: 79%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    width: 90px;
+    height: 27px;
+}
+button {
+    position: relative;
+    font-size: 100%;
+    overflow: auto;
+    width: 90px;
+    height: 27px;
+    background-color: rgb(0,0,0,0.1);
+}
+#buttonHerdaz {
+    display: grid;
+    margin-left: -50%;
+    margin-top: 30%; 
+}
+#buttonShinovar {
+    display: grid;
+    margin-top: 30%;
+    margin-left: 60%;
+}
+#buttonJah {
+    display: grid;
+    margin-top: 30%;
+}
+#buttonAlethkar {
+    display: grid;
+    margin-top: 35%;
+    margin-left: -35%;
+}
+#buttonAzir {
+    display: grid;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+#buttonKarbranth {
+    display: grid;
+    margin-top: 35%;
+}
+#buttonThay {
+    display: grid;
+    margin-left: -155%;
+}
+
+
+#footer{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    bottom: -2%;
+    height: 8%;
+}
