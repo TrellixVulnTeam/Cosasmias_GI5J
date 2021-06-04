@@ -24,7 +24,7 @@ a:visited{
 a:active{
     color: black;
 }
-a:hover{
+#caca:hover{
     text-decoration: underline;
     color:white;
     background-color: #d00;

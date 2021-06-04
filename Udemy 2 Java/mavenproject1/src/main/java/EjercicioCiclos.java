@@ -297,6 +297,89 @@ public class EjercicioCiclos {
             }
         }*/
         
+        
+        // Ejercicio 17
+        
+        /*double cod, litros, preciol, cantil1 = 0, facturaa = 0, factura, facturat = 0;
+        
+        
+        for(int i=1; i <= 5; i++){
+            System.out.println("Itroduce el código del artículo Nº" + i + ": ");
+            cod = tcl.nextDouble();
+            System.out.println("Itroduce los litros vendidos: ");
+            litros = tcl.nextDouble();
+            System.out.println("Itroduce el precio por litro: ");
+            preciol = tcl.nextDouble();
+            factura = preciol * litros;
+            facturat += factura;
+            if(i == 1){
+                cantil1 = litros;
+            }
+            if(factura > 600){
+                ++facturaa;
+            }
+        }
+        System.out.println("Factura Total : " + facturat);
+        System.out.println("Litros articulo 1 : " + cantil1);
+        System.out.println("Facturas altas: " + facturaa);
+        */
+        
+        
+        // Ejercicio 18
+        
+        /*double  litros, preciol, cantil1 = 0, facturaa = 0, factura = 0, facturat = 0;
+        int cod;
+        
+        for(int i = 0; i < 5; ++i){
+            System.out.println("Escriba el código del producto: ");
+            cod = tcl.nextInt();
+            switch(cod){
+                case 1: System.out.println("Escriba los litros vendidos del producto: ");
+                        litros = tcl.nextDouble();
+                        if(i == 0){
+                            cantil1 = litros;
+                        }
+                        preciol = 0.6;
+                        factura = preciol * litros;
+                        if(factura > 600){
+                            ++facturaa;
+                        }
+                        facturat += factura;
+                        break;
+                case 2: System.out.println("Escriba los litros vendidos del producto: ");
+                        litros = tcl.nextDouble();
+                        if(i == 1){
+                            cantil1 = litros;
+                        }
+                        preciol = 3;
+                        factura = preciol * litros;
+                        if(factura > 600){
+                            ++facturaa;
+                        }
+                        facturat += factura;
+                        break;
+                case 3: System.out.println("Escriba los litros vendidos del producto: ");
+                        litros = tcl.nextDouble();
+                        if(i == 1){
+                            cantil1 = litros;
+                        }
+                        preciol = 1.25;
+                        factura = preciol * litros;
+                        if(factura > 600){
+                            ++facturaa;
+                        }
+                        facturat += factura;
+                        break;
+            }
+        }
+        System.out.println("Factura Total : " + facturat);
+        System.out.println("Litros articulo 1 : " + cantil1);
+        System.out.println("Facturas altas: " + facturaa);
+        */
+        
+        
+        // Ejercicio 19
+        
     }
     
 }
