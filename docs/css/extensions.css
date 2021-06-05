@@ -41,8 +41,11 @@ h1 {
     font-size: 130%;
 }
 
-#herdazians {
+.imgl {
     float: left;
+}
+.imgr {
+    float: right;
 }
 
 

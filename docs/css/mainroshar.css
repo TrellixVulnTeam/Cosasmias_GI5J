@@ -8,7 +8,7 @@ html {
     display: grid;
     justify-content: center;
     text-align: center;
-    width: 99.6%;
+    width: 99%;
     height: 10%;
     border: 2px solid black;
     font-size: 300%;
@@ -23,9 +23,11 @@ body {
 }
 
 div {
+    position: absolute;
     display: grid;
     justify-content: center;
     text-align: center;
+    
 }
 
 p {
@@ -37,16 +39,17 @@ p {
 
 
 #map {
-    display: grid;
-    justify-content: center;
-    height: 79%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    left: 9%;
+    width: 82%;
+    height: 78%;
+    top: 11.5%;
+     
+    
     
 }
 
-a {
+a { 
+    position: relative;
     text-decoration: none;
     width: 90px;
     height: 27px;
@@ -59,44 +62,176 @@ button {
     height: 27px;
     background-color: rgb(0,0,0,0.1);
 }
+
 #buttonHerdaz {
+    position: absolute;
+    left: 63%;
+    top: 30%;  
+    width: 90px;
+    height: 27px;
+}
+
+#buttonHerdaz:hover #infoHerdaz {
+    transition-delay: 0.6s;
+    visibility: visible;
+}
+
+#infoHerdaz{
+    
     display: grid;
-    margin-left: -50%;
-    margin-top: 30%; 
+    position: absolute;
+    visibility: hidden;
+    right: 100%;
+    bottom: 100%;
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
 }
 #buttonShinovar {
-    display: grid;
-    margin-top: 30%;
-    margin-left: 60%;
+    position: absolute;
+    left: 25%;
+    top: 50%;  
+    
 }
-#buttonJah {
+
+#buttonShinovar:hover #infoShinovar {
+    transition-delay: 0.6s;
+    visibility: visible;
+}
+
+#infoShinovar{
     display: grid;
-    margin-top: 30%;
+    position: absolute;
+    visibility: hidden;
+    right: 100%;
+    bottom: 100%;
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
+}
+
+#buttonJah {
+    position: absolute;
+    right : 37%;
+    top: 37%;;
+}
+
+#buttonJah:hover #infoJah {
+    transition-delay: 0.6s;
+    visibility: visible;
+}
+
+#infoJah{
+    display: grid;
+    position: absolute;
+    visibility: hidden;
+    right: 100%;
+    bottom: 100%;
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
 }
 #buttonAlethkar {
-    display: grid;
-    margin-top: 35%;
-    margin-left: -35%;
+    position: absolute;
+    right: 29%;
+    top: 50%;
 }
+
+#buttonAlethkar:hover #infoAlethkar {
+    transition-delay: 0.6s;
+    visibility: visible;
+}
+
+#infoAlethkar{
+    display: grid;
+    position: absolute;
+    visibility: hidden;
+    right: 100%;
+    bottom: 100%;
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
+}
+
 #buttonAzir {
-    display: grid;
-    margin-left: 20%;
-    margin-top: 20%;
+    position: absolute;
+    left: 35%;
+    bottom: 36%;
 }
-#buttonKarbranth {
+
+#buttonAzir:hover #infoAzir {
+    transition-delay: 0.6s;
+    visibility: visible;
+}
+
+#infoAzir{
     display: grid;
-    margin-top: 35%;
+    position: absolute;
+    visibility: hidden;
+    right: 100%;
+    bottom: 100%;
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
+}
+
+#buttonKarbranth {
+    position: absolute;
+    right: 40%;
+    bottom: 25%;   
+}
+
+#buttonKarbranth:hover #infoKarbranth {
+    transition-delay: 0.6s;
+    visibility: visible;
+}
+
+#infoKarbranth{
+    display: grid;
+    position: absolute;
+    visibility: hidden;
+    right: 100%;
+    bottom: 100%;
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
 }
 #buttonThay {
+    position: absolute;
+    right: 33%;
+    bottom: 15%;   
+}
+
+#buttonThay:hover #infoThay {
+    transition-delay: 0.6s;
+    visibility: visible;
+}
+
+#infoThay{
     display: grid;
-    margin-left: -155%;
+    position: absolute;
+    visibility: hidden;
+    right: 100%;
+    bottom: 100%;
+    background-color: white;
+    border: 2px solid black;
+    width: 350px;
+    height: 250px;
 }
 
 
 #footer{
+    width: 100%;
     display: grid;
     justify-content: center;
-    position: relative;
-    bottom: -2%;
-    height: 8%;
+    position: fixed;
+    height: 10%;
+    bottom: 0%;
+    
 }
